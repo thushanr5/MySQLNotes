@@ -9,3 +9,4 @@ actor WHERE actor_id = 2 + 10; --The 2 + 10 is an expression which can be evalua
 
 USE world;
 SELECT CountryCode, Language, IsOfficial, Percentage, Percentage * 10 AS 'New Percentage' FROM world.countrylanguage;
+-- As is an alias used as the new column name for the specific table column, New column called Percentage
